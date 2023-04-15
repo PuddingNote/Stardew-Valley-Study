@@ -1422,7 +1422,7 @@ TextureImporter:
       ocean_15: 21300030
       ocean_39: 21300078
       ocean_31: 21300062
-      ocean_19: 21300038
+      ocean_34: 21300068
       ocean_40: 21300080
       ocean_30: 21300060
       ocean_7: 21300014
@@ -1458,7 +1458,7 @@ TextureImporter:
       ocean_37: 21300074
       ocean_36: 21300072
       ocean_18: 21300036
-      ocean_34: 21300068
+      ocean_19: 21300038
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
