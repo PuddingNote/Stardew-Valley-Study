@@ -31,11 +31,6 @@ public class PlayerMove : MonoBehaviour
 
     void LateUpdate()
     {
-        //if(inputVec.x != 0)
-        //{
-        //    spriteRenderer.flipX = inputVec.x < 0;
-        //}
-
         if (inputVec.x != 0 || inputVec.y != 0)
             anim.SetBool("isMove", true);
         else
@@ -43,7 +38,7 @@ public class PlayerMove : MonoBehaviour
 
         anim.SetFloat("inputX", inputVec.x);
         anim.SetFloat("inputY", inputVec.y);
-        
+
     }
 
     void OnMove(InputValue value)

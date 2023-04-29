@@ -8,36 +8,6 @@ public class InventoryManager : MonoBehaviour
     public InventorySlot[] inventorySlots;
     public GameObject inventoryItemPrefab;
 
-    //int selectedSlot = -1;
-
-    private void Start()
-    {
-        //ChangeSelectedSlot(0);    
-    }
-
-    private void Update()
-    {
-        //if (Input.inputString != null)
-        //{
-        //    bool isNumber = int.TryParse(Input.inputString, out int number);
-        //    if (isNumber && number > 0 && number < 9)
-        //    {
-        //        ChangeSelectedSlot(number - 1);
-        //    }
-        //}
-    }
-
-    //void ChangeSelectedSlot(int newValue)
-    //{
-    //    if(selectedSlot >= 0)
-    //    {
-    //        inventorySlots[selectedSlot].DeSelect();
-    //    }
-
-    //    inventorySlots[newValue].Select();
-    //    selectedSlot = newValue;
-    //}
-
     public bool AddItem(Item item)
     {
         // 최대치가 아니면서 같은 아이템을 가지고있는 슬롯 찾기
