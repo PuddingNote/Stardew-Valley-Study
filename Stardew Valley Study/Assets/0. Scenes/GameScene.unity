@@ -9328,9 +9328,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1133833360}
   - component: {fileID: 1133833364}
+  - component: {fileID: 1133833361}
   - component: {fileID: 1133833363}
   - component: {fileID: 1133833362}
-  - component: {fileID: 1133833361}
   m_Layer: 5
   m_Name: TestGroup
   m_TagString: Untagged
@@ -12393,7 +12393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30d24bd0b757064cb366725bbf72632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 1790824059}
+  maininventory: {fileID: 2020152913}
+  toolbar: {fileID: 0}
 --- !u!114 &1904335176
 MonoBehaviour:
   m_ObjectHideFlags: 0

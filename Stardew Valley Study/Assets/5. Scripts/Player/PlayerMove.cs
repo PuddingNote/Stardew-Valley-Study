@@ -18,11 +18,6 @@ public class PlayerMove : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    void Update()
-    {
-        
-    }
-
     void FixedUpdate()
     {
         Vector2 nextVec = inputVec * moveSpeed * Time.fixedDeltaTime;

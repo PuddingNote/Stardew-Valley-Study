@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
-    [SerializeField] private GameObject inventory;
+    [SerializeField] 
+    private GameObject maininventory;
+
+    [SerializeField]
+    private GameObject toolbar;
+
     bool activeInventory = false;
 
     private void Start()
     {
-        inventory.SetActive(activeInventory);
+        maininventory.SetActive(activeInventory);
+        toolbar.SetActive(!activeInventory);
     }
 
     private void Update()
@@ -17,7 +23,8 @@ public class InventoryUI : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E))
         {
             activeInventory = !activeInventory;
-            inventory.SetActive(activeInventory);
+            maininventory.SetActive(activeInventory);
+            toolbar.SetActive(!activeInventory);
         }
     }
 
